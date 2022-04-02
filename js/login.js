@@ -24,10 +24,11 @@
                 loginPwd,
             },
         });
-        res && window.location.replace(baseURL + 'index.html');
+        res && window.location.replace('/index.html');
 
         // res && (window.location.href = baseURL + 'index.html');
     };
+    console.log(baseURL);
 
     init();
 })();
