@@ -26,7 +26,7 @@
         });
         // res && window.location.replace("../index.html");
 
-        res && (window.location.href = '../index.html');
+        res && (window.location.href = baseURL + 'index.html');
     };
 
     init();
